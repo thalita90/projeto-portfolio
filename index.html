@@ -12,6 +12,7 @@
 
 <body>
     <header class="header-menu">
+        
         <nav>
             <ul class="lista-menu">
 
@@ -22,15 +23,15 @@
                 <li><a href="#contato">Contatos</a></li>
             </ul>
         </nav>
+
     </header>
 
 <main>
     <section class="principal">
         <article class="subcontainer-principal container">
-        <div class="cat" >
-            <img src="./img/foto-thalita.png">
+        <div class="img-perfil">
+            <img class="img-perfil" src="./img/foto-thalita.png">
         </div>
-
         <div>
             <h1 class="nome-completo">Thalita Soares Almeida</h1>
             <h2 class="profissao">Desenvolvedora Front-end</h2>
@@ -70,7 +71,7 @@
                         marcas, entre outras possibilidades.
                     </p>
                 </li>
-                  
+                <br>
                 <li>
                     <p class="lista-titulo">Cientista de Dados</p>
                     <a href="https://go.mentorama.com.br/" target="_blank" class="lista-local">Mentorama</a>
@@ -80,7 +81,7 @@
                        Usando a linguagens como Python, SQL, C++, R e outros.
                     </p>
                 </li>
-                  
+                <br>  
                 <li>
                     <p class="lista-titulo">Desenvolvedora Front-End</p>
                     <a  href =" https://www.pretalab.com/formacao " target =" _blank " class="lista-local">Pretalab Olabi</a >
@@ -91,12 +92,13 @@
                         portfólio profissional usando HTML e CSS. Tivemos introdução ao GitHub e Netlify.
                     </p>
                  </li>
+                 <br>
             </ul>      
         </div>
         </article>
     </section>
 
-    <section id="portfolio">
+    <section class="projetos" id="portfolio">
         <article class="container article-lista">
         <div>
             <h3 class="topico-principal">Meus Projetos</h3>
@@ -116,58 +118,34 @@
 
         </div>
 
-        <table>
-                <thead>
-                    <th>Bordado em linha casal</th>
-                    <th>Pintura em linha Monet</th>
-                    <th>Bordado em linha coelho</th>
-                    <th>Pintura em linha Mel</th>
-                    <th>Bordado em linha Norino</th>
-                    <th>Pintura em linha Baby</th>
-                </thead> 
+        <div class="div-projeto">
+            <div class="div-projeto-sec">
+                <img src="imgSonhosdeLilita/bordadoDeb.png" class="img-projeto">
+                <p class="paragrafo-projeto">Bordado em linha vó </p>
+            </div>
 
-                <tbody>
-                    <tr>
-                        <td>
-                            <img src="./imgSonhosdeLilita/bordadoLinha.png" alt="Bordado em linha casal" 
-                            width="270" height="165">
+            <div class="div-projeto-sec">
+                <img src="imgSonhosdeLilita/bordadoMonet.png" class="img-projeto">
+                <p class="paragrafo-projeto">Pintura em Monet</p>
 
-                            </a>
-                        </td>
-                        <td>
-                            <img src="./imgSonhosdeLilita/bordadoMonet.png" alt="Pintura em linha Monet"
-                                width="270" height="165">
-                        </td>
+            </div>
 
-                         <td>
-                            <img src="./imgSonhosdeLilita/bordadoLinhacoelho.png" alt="Bordado linha homenagem ao coelho" 
-                            width="270" height="165">
+            <div class="div-projeto-sec">
+                <img src="imgSonhosdeLilita/bordadoLinhacoelho.png" class="img-projeto">
+                <p class="paragrafo-projeto">Bordado em linha coelho</p>
+            </div>
 
-                            </a>
-                        </td>
-                        <td>
-                             <img src="./imgSonhosdeLilita/bordadoMel.png" alt="Pintura em linha Mel"
-                                width="270" height="165">
-                        </td>
-
-                         <td>
-                            <img src="./imgSonhosdeLilita/bordadoDeb.png" alt="Bordado linha homenagem ao vó Norino" 
-                            width="270" height="165">
-
-                            </a>
-                        </td>
-                        <td>
-                            <img src="./imgSonhosdeLilita/bordadoBaby.png" alt="Pintura em linha Baby"
-                                width="270" height="165">
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="div-projeto-sec">
+                <img src="imgSonhosdeLilita/bordadoMel.png" class="img-projeto">
+                <p class="paragrafo-projeto">Pintura em linha Mel</p>
+            </div>
+      
+        </div>
 
         <div>
             <ul>
                 <p class="lista-titulo">Desenvolvedora Front-end</p>
-                <a href="https://sparkling-blancmange-92af5a.netlify.app/" target="_blank" class="lista-local">Calculadora Básica e Calculadora de Média</a>
+                <a href="https://calculadorathalitasoares.netlify.app/" target="_blank" class="lista-local">Calculadora Básica e Calculadora de Média</a>
                 <p class="lista-descricao">
                     No curso da PretaLab, tivemos que desenvolver no projeto final do 
                     primeiro módulo, uma Calculadora Básica e uma Calculadora de Média.
@@ -180,19 +158,19 @@
         </article>
     </section>
 </main>
-        
-<footer class="rodape" id="contato">
+
+<footer class="footer">
     <div class="container">
-      <ul class="lista-rodape">
+      <ul class="lista-rodape" id="contato">
     
         <li><i class="fas fa-envelope-square estilo-icone"></i>
-          <a href="thataunamoda@hotmail.com" target="_blank">email@email.com</a>
+          <a href="thataunamoda@hotmail.com" target="_blank" class="links">thataunamoda@hotmail.com</a>
         </li>
-        <li><i class="fab fa-linkedin"></i>
-          <a href="https://linkedin.com/" target="_blank">thalita-soares-almeida</a>
+        <li><i class="fab fa-linkedin estilo-icone"></i>
+          <a href="https://linkedin.com/" target="_blank" class="links">thalita-soares-almeida</a>
         </li>
-        <li><i class="fab fa-github-square"></i>
-          <a href="https://github.com/" target="_blank">thalita90</a>
+        <li><i class="fab fa-github-square estilo-icone"></i>
+          <a href="https://github.com/" target="_blank" class="links">thalita90</a>
         </li>
       </ul>
     </div>
