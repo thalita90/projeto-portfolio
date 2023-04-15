@@ -1,116 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&display=swap');
+
 * {
-    margin:0;
-    padding:0;
-    outline:0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
 }
     
 body {
-    font-family: Pacifico, cursive, 51px;
-    margin:0;
-}
-    
-.th,td {
-    padding-top:15px;
-    padding-bottom:15px;
+    font-family: Verdana, cursive;
 }
     
 .li {
-    list-style:none;
+    list-style: none;
 }
     
 .header-menu {
-    display:flex;
-    position:fixed;
-    width:100%;
+    background: #a7534e;
+    display: flex;
+    height: 30px;
+    position: fixed;
     padding: 8px;
     padding-bottom: 32px;
     padding-top: 32px;
-    height:60px;
-    background: #a7534e;
+    width: 100%;
+    
 }
     
 .header-menu nav {
-    display:flex;
-    justify-content:flex-end;
-    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
     
 .lista-menu {
-    display:flex;
-    justify-content:space-evenly;
-    width: 50%;
-    align-items:center;
-   
-   
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+    width: 50%;   
 }
+
 ul li{
     list-style-type: none;
-}   
+} 
+
 .lista-menu li>a {
-    color: #ffff;
-    font-size:25px;
-    text-decoration:inherit;
+    color: #fde0cc;
+    font-family: Times;
+    font-size: 30px;
+    text-decoration: inherit;
 }
     
 .principal {
-    height: 125vh;
-    display:flex;
-    background: #FAF8F1;    
+    background: #fde0cc; 
+    display: flex;
+    height: 125vh;    
 }
      
 .container {
-    margin-right:auto;
-    margin-left:auto;
-    margin-top:75px;
-    max-width:960px;
-    padding-right:10px;
-    padding-left:10px;
-    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
 }
     
 .subcontainer-principal {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .img-perfil{
-    width: 250px;
-    height: 250px;
     border-radius: 100%;
+    height: 250px;
+    width: 250px;  
 }
     
 .nome-completo {
-    font-size:30px;
-    color:#793740;
-    font-weight:bold;
-    height:35px;
+    color: #793740;
+    font-family: 'Caveat';
+    font-size: 50px;
+    font-weight: bold;
+    height: 35px;
+    padding-bottom: 40px;
 }
     
 .profissao {
-    color:#C36839;
-    height:60px;
-    font-size:21px;
+    color: #c8580e;
+    font-family: Times;
+    font-size: 25px;
+    height: 60px;
 }
     
 .texto-sobre {
-    font-size:20px;
-    line-height:32px;
-    text-align:justify;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
 }
     
 .article-lista {
-    display:flex;
-    flex-direction:column;
-    margin-top:100px;
-    margin-bottom:100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
     
 .topico-principal {
-    font-size:36px;
     color:#a7534e;
+    font-family: Times;
+    font-size: 36px;
+    line-height: 20px;
 }
     
 .lista-item {
@@ -118,38 +123,41 @@ ul li{
 }
        
 .lista-titulo {
-    margin-bottom: 5px;
-    font-size: 22px;
-    color: #ffbc71;
+    color: #c8580e;
+    font-family: Times;
+    font-size: 28px;
     font-weight: 700;
+    margin-bottom: 5px;
+    padding-top: 20px;
 }
 
 .lista-local {
-    font-size: 20px;
-    color: #91632b;
+    color: #ca6c28;
+    font-size: 18px;
     line-height: 32px;
     text-decoration: none;
 }
 
 .lista-descricao {
+    color: #140c0d;
+    display: flex;
     font-size: 20px;
-    margin-top: 5px;
-    line-height: 32px;
-    color: black;
     font-weight: 300;
-    text-align:justify;
+    justify-content: center;
+    margin-top: 5px;
+    text-align: justify;
 }
 
 .projetos{
-    background-color: #FAF8F1;
+    background-color: #fde0cc;
 }
 
 .div-projeto{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 3rem;
     padding-bottom: 3rem;
+    padding-top: 3rem; 
 }
 
 .div-projeto-sec{
@@ -158,43 +166,116 @@ ul li{
 }
    
 .img-projeto {
-    width: 150px;
-    height: 150px;
     border-radius: 100%;
+    height: 150px;
+    width: 150px;
 }
 
 .paragrafo-projeto{
-    flex-direction: row;
+    color: #1c1b1b;
     display: flex;
-    font-size: 1rem;
+    flex-direction: row;
+    font-family: 'Caveat';
+    font-size: 1.5rem;
     font-weight: bold;
     justify-content: center;
 }
 
 .footer {
-    background-color: #a7534e;
-    height: 30vh;
-    display: flex;
     align-items: center;
+    background-color: #a7534e;
     border-radius: 1px;
+    display: flex;
+    height: 250px;
 }
 
 .links {
-    text-decoration: none;
     color: #faedcd;
+    text-decoration: none;
 }
  
 .lista-footer li {
-    color: #FFF;
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 16px;
-    display:flex;
     align-items: center;
+    color: #FFF;
+    display:flex;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.lista-footer{
+    padding-bottom: 30px;
 }
 
 .estilo-icone {
-    font-size:32px;
-    margin-right:10px;
     color: #FFF;
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.topo{
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #fde0cc;
+    display: flex;
+    font-family: Times;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/*  media queries */
+@media screen and (max-width: 767px) {
+    .header-menu{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .header-menu nav{
+        align-items: center;
+        justify-content:space-evenly;
+    }
+
+    .lista-menu li a{
+        line-height: 10px;
+        padding: 10px;
+    }
+
+    .div-projeto{
+        flex-direction: column;
+    }
+
+    .div-projeto .div-projeto-sec{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projetos{
+       width: 100%;
+    }
+
+    .projetos .lista-descricao{
+        font-size: 18px;
+        margin: 15px;
+       
+    }
+
+    .subcontainer-principal{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .article-lista{
+        width: 100%;
+    }
+
+    .footer{
+        flex-direction: row;
+    }
+
 }
